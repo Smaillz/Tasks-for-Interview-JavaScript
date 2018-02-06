@@ -1,0 +1,12 @@
+1) OOP\ООП (Объектно ориентированное программирование)
+https://progstudy.ru/index.php/sm/article/ob-ektno-orientirovannoe-programmirovanie
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
+
+2) Funcional Programming\ Функциональное програмирование
+https://habrahabr.ru/post/154105/
+https://habrahabr.ru/post/324308/
+
+3)SOLID
+https://habrahabr.ru/post/273843/
+https://www.youtube.com/watch?v=9kNA9u7JYPc
+https://www.youtube.com/watch?v=59tq5Fcgn7A
