@@ -10,3 +10,32 @@ https://habrahabr.ru/post/324308/
 https://habrahabr.ru/post/273843/
 https://www.youtube.com/watch?v=9kNA9u7JYPc
 https://www.youtube.com/watch?v=59tq5Fcgn7A
+
+4)Шаблоны (Паттерны) проектирования // Примеры патернов на js находятся в папке patterns
+https://habrahabr.ru/post/132472/
+https://github.com/sadcitizen/javascript-design-patterns
+http://xiper.net/learn/javascript/shablony-proyektirovaniya/shablony-proyektirovaniya
+
+5) DDD\Проблемно ориентированное проектирование
+https://habrahabr.ru/post/258693/
+https://habrahabr.ru/post/316438/
+https://habrahabr.ru/post/61524/
+
+6) Event Sourcing
+https://habrahabr.ru/post/178259/
+https://habrahabr.ru/post/300956/
+http://microservices.io/patterns/data/event-sourcing.html
+
+7)microservices architecture
+http://microservices.io/patterns/microservices.html
+https://habrahabr.ru/post/249183/
+https://habrahabr.ru/post/311208/
+https://habrahabr.ru/company/mailru/blog/320962/
+https://www.ibm.com/developerworks/ru/library/1601_clark-trs/index.html
+
+8)архитектура highload проекта
+https://ruhighload.com/post/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%B8%D1%85+%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BA
+https://habrahabr.ru/company/southbridge/blog/166739/
+https://habrahabr.ru/post/322562/
+https://www.youtube.com/watch?v=uYhQ2ot3XFg&list=PLrCZzMib1e9qozAkJm0-IyBO2pkUdBLlM
+
