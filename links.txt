@@ -39,3 +39,42 @@ https://habrahabr.ru/company/southbridge/blog/166739/
 https://habrahabr.ru/post/322562/
 https://www.youtube.com/watch?v=uYhQ2ot3XFg&list=PLrCZzMib1e9qozAkJm0-IyBO2pkUdBLlM
 
+/////////////////////////////////////////////////////////////////////////////////////
+
+9) Code Standart
+https://codex.wordpress.org/Стандарты_кодирования_Javascript
+https://learn.javascript.ru/coding-style
+https://ymatuhin.ru/front-end/javascript_styleguide/
+https://learn.javascript.ru/coding-style
+
+10)Code smells
+https://github.com/mohuk/js-code-smells
+https://refactoring.guru/ru
+
+11) Refactoring
+https://refactoring.guru/ru/refactoring
+
+
+12) Code review 
+https://habrahabr.ru/post/142564/
+https://habrahabr.ru/post/340550/
+
+////////////////////////////////////////////////////////////////////////////////////
+
+13) Jenkins
+https://www.youtube.com/watch?v=b9DjWDwIyPA
+https://jenkins.io
+
+14) Sonarqube
+https://habrahabr.ru/post/259149/
+https://habrahabr.ru/company/pvs-studio/blog/315422/
+
+15) Logging\Debuging\Profiling\Profillers
+https://ymatuhin.ru/front-end/logs-in-javascript/
+https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution?hl=ru
+https://habrahabr.ru/post/76485/
+https://habrahabr.ru/post/149053/
+https://developer.mozilla.org/ru/docs/Tools/Profiler
+https://alfilatov.com/posts/profilirovaniie-v-js/
+https://www.youtube.com/watch?v=nWCu2o_mmyE
+https://www.youtube.com/watch?v=uNJI3iYO-mA
