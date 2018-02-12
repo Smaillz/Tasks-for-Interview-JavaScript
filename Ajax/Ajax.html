@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Hello world</p>
+        <script>
+            var req = new XMLHttpRequest();
+            
+            req.open('GET', 'https://api.nestoria.co.uk/api?action=echo&encoding=json&foo=bar');
+
+            req.onreadystatechange = () => {
+                if (req.status === 200 && req .readyState === 4 ) {
+                    console.log(JSON.parse(req.response));
+                }
+            }
+
+            req.send();
+        </script>
+    </div>
+</body>
+</html>

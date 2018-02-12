@@ -1,30 +1,15 @@
-function sum(a, b) {
-    return a + b;
+var sBrowser, sUsrAg = navigator.userAgent;
+
+if(sUsrAg.indexOf("Chrome") > -1) {
+    sBrowser = "Google Chrome";
+} else if (sUsrAg.indexOf("Safari") > -1) {
+    sBrowser = "Apple Safari";
+} else if (sUsrAg.indexOf("Opera") > -1) {
+    sBrowser = "Opera";
+} else if (sUsrAg.indexOf("Firefox") > -1) {
+    sBrowser = "Mozilla Firefox";
+} else if (sUsrAg.indexOf("MSIE") > -1) {
+    sBrowser = "Microsoft Internet Explorer";
 }
 
-// Promise.resolve(1)
-//     .then(res => sum(res, 2))
-//     .then(res => sum(res, 3))
-//     .finnaly(res => {
-//         return res + 123
-//     })
-//     .then(res => {
-//         console.log(res)
-//     })
-//     .catch(res => {
-//         console.log(res)
-//     });
-
-// fetch('https://www.youtube.com')
-//     .then(res => sum(res, 2))
-//     .then(res => sum(res, 3))
-//     .finnaly(res => {
-//         console.log(res);
-//         return res + 123
-//     })
-//     .then(res => {
-//         console.log(res)
-//     })
-//     .catch(res => {
-//         console.log(res)
-//     });
+alert("You are using: " + sBrowser);

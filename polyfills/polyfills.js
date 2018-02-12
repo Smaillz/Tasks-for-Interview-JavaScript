@@ -28,5 +28,5 @@ function reduce(arr, callback, initialState) {
 }
 
 /**
- * 
+ * polyfill Function.bind()
  */

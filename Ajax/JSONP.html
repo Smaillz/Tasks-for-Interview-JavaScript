@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>Hello world</p>
+        <div id="q1"></div>
+        <script>
+            var elem = document.createElement('script');
+            elem.src = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrsearch=starwars&callback=handler';
+            document.head.appendChild(elem);
+
+            function handler(dada) {
+                console.log(dada)
+            }
+        </script>
+    </div>
+</body>
+
+</html>

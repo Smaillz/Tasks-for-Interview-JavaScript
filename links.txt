@@ -78,3 +78,20 @@ https://developer.mozilla.org/ru/docs/Tools/Profiler
 https://alfilatov.com/posts/profilirovaniie-v-js/
 https://www.youtube.com/watch?v=nWCu2o_mmyE
 https://www.youtube.com/watch?v=uNJI3iYO-mA
+
+16) Testing process
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+17) Ajax
+https://habrahabr.ru/post/14246/
+https://learn.javascript.ru/ajax
+https://www.w3schools.com/xml/ajax_intro.asp
+
+18) Browser detection
+http://www.webmasters.by/articles/web-programming/3118-browser-detection-javascript.html
+http://www.wisdomweb.ru/JS/bomdet.php
+https://brainoteka.com/blog-java-script-spravochnik/obekt-navigator-v-javascript-108
+
+19) Browser event model
+https://developer.mozilla.org/ru/docs/Web/JavaScript/EventLoop
+https://www.youtube.com/watch?v=8cV4ZvHXQL4&t=1294s

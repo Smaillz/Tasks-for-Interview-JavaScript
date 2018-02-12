@@ -199,15 +199,91 @@ bar(); // 1
  */
 'use strict'
 const a = {
-  b: 1,
-  getB: function() {
-    return this.b;
-  }
+    b: 1,
+    getB: function () {
+        return this.b;
+    }
 };
 
 console.log(a.getB()); // 1
 const b = a.getB
 console.log(b()); // TypeError
+
+/**
+ * 
+ */
+var a = { aa: 5 };
+var b = Object.create(a);
+delete b.aa;
+console.log(b.aa); //5 - delete b.aa его и не было
+delete a.aa;
+console.log(b.aa); //undefined
+
+/**
+ * 
+ */
+var a = {
+    b: 5,
+    getB: function () {
+        return this.b;
+    }
+};
+console.log(a.getB()) //5 a.b=5
+var fn = a.getB;
+console.log(fn()) //undefined, windows.b = undefined
+
+/**
+ * 
+ */
+var obj = {
+    a: function () {
+        console.log(this.prop);
+    },
+    prop: 1
+};
+obj.a.prop = 2;  // не меняется свойство obj
+obj.a();   // 1
+var fn = obj.a;
+fn();    // undefined
+
+/**
+ * 
+ */
+closure()[3]() === 3 // false | closure()[3]()=== 10 true
+function closure() {
+   return (function(){
+       var arr = [];
+       for(var i = 0; i < 10; i++){
+           arr.push(function(){
+               return i;
+           });
+       }
+       return arr;
+   })()
+}
+
+/**
+ * 
+ */
+var a = [1];   
+a[20] = 2;     
+a['b'] = 3;    
+a.push(4);     
+delete a[20];  
+a.slice(1, 15, 3, -2);     
+a.splice(1, 15, 3, -2);   
+console.log(a.length) // len==9
+
+/**
+ * 
+ */
+function X() {}
+function Y() {}  
+
+Y.prototype = Object.create(X.prototype);
+
+var z = new Y();
+z.constructor == Y  //false z.constructor === X
 
 /**
  * 
