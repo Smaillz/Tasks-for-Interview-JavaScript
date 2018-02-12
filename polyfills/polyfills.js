@@ -30,3 +30,31 @@ function reduce(arr, callback, initialState) {
 /**
  * polyfill Function.bind()
  */
+// in ES5 style
+Function.prototype.myBind = function(context) {
+    var buff = this;
+    var arg1 = [].slice.call(arguments, 1);
+
+    return function () {
+        var arg2 = [].slice.call(arguments, 0);
+
+        return buff.apply(context, arg1.concat(arg2));
+    }
+}
+
+// in ES6 style
+Function.prototype.myBind = function(context, ...arg1) {
+    var buff = this;
+
+    return function (...arg2) {
+        return buff.call(context, ...[...arg1, ...arg2]);
+    }
+}
+
+function foo (a, b){
+    console.log('Sum =', this + a + b);
+}
+
+var f = foo.myBind(10,20);
+
+f(30);
