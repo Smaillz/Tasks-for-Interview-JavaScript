@@ -1,3 +1,6 @@
 Статьи про javascript, css и др...
 https://getinstance.info
 
+tasks
+http://perfectionkills.com/javascript-quiz/
+
