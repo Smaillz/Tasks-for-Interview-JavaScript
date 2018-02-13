@@ -58,3 +58,16 @@ function foo (a, b){
 var f = foo.myBind(10,20);
 
 f(30);
+
+/**
+ * Array dublicate
+ */
+Array.prototype.dublicat = function (arr) {
+    return this.concat(arr);
+}
+
+Array.prototype.dublicat = function (arr) {
+    return [...this, ...arr];
+}
+
+console.log([1,2,3].dublicat([4,5,6]));

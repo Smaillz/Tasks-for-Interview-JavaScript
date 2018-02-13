@@ -105,3 +105,28 @@ https://habrahabr.ru/post/282477/
 21) CORS 
 https://developer.mozilla.org/ru/docs/Web/HTTP/CORS
 http://grishaev.me/cors
+
+22) Browser DOM
+https://learn.javascript.ru/document
+https://habrahabr.ru/post/338840/
+https://habrahabr.ru/post/243815/
+
+23) SystemJS/AMD/UMD/CommonJS
+https://tproger.ru/translations/js-modules-formats-loaders-builders/
+https://habrahabr.ru/post/181536/
+https://tuhub.ru/posts/javascript-moduli-rukovodstvo-dlya-nachinayushhih
+https://habrahabr.ru/post/152833/
+
+24) Promise
+finaly method
+http://2ality.com/2017/07/promise-prototype-finally.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally
+
+Promises
+https://habrahabr.ru/post/242767/
+https://www.youtube.com/watch?v=vNEDPtVchfw
+
+25) WebSocket | COMET
+https://learn.javascript.ru/websockets - websocket
+https://learn.javascript.ru/ajax-intro - comet
+
