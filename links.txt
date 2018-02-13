@@ -130,3 +130,28 @@ https://www.youtube.com/watch?v=vNEDPtVchfw
 https://learn.javascript.ru/websockets - websocket
 https://learn.javascript.ru/ajax-intro - comet
 
+26) ES3/ES5/ES6/ES7 shim
+https://habrahabr.ru/post/133328/
+https://toster.ru/q/396140
+http://qaru.site/questions/14170/what-is-the-difference-between-a-shim-and-a-polyfill
+
+27) html5shiv
+http://www.stijit.com/html-css/html5shiv-js-ie-support
+https://github.com/afarkas/html5shiv
+
+28) Security model, XSS
+https://habrahabr.ru/post/66057/
+https://www.securitylab.ru/analytics/432835.php?R=1
+https://www.veracode.com/security/javascript-security
+
+
+29) Modernizr
+https://habrahabr.ru/post/144352/
+http://www.area53.ru/javascript/chto-takoe-modernizr-i-kak-s-nim-rabotat.html
+
+30) features ES7/ES8
+https://tproger.ru/translations/wtf-is-ecmascript/
+https://habrahabr.ru/post/332900/
+ 
+
+
