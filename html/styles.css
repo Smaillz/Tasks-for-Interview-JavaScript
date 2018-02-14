@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 5px double black;
+}
+
+.title {
+    border-bottom: 5px double black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 150px;
+}
+
+.part1 {
+    display: block;
+    border-bottom: 5px double black;
+    padding: 20px;
+}
+
+.part2 {
+    display: block;
+    flex-direction: column;
+    border-bottom: 5px double black;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.box_line {
+    display: inline-block;
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.red {
+    background: red;
+    margin-right: 50px;
+}
+
+.green {
+    background: green;
+    margin-left: 20px;
+}
+
+.blue {
+    background:  blue;
+    margin-bottom: 50px;
+}
+
+.gray {
+    background: gray;
+    margin-top: 20px;
+}
+
+.ex_pos {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100px;
+    height: 100px;
+    background: brown;
+}
