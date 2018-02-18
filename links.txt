@@ -153,6 +153,9 @@ http://www.area53.ru/javascript/chto-takoe-modernizr-i-kak-s-nim-rabotat.html
 https://tproger.ru/translations/wtf-is-ecmascript/
 https://habrahabr.ru/post/332900/
 
+31) Проблемы css
+https://habrahabr.ru/post/189118/
+https://habrahabr.ru/post/189252/
 
 31) Адаптивная верстка
 https://metanit.com/web/html5/11.2.php
