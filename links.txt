@@ -152,6 +152,43 @@ http://www.area53.ru/javascript/chto-takoe-modernizr-i-kak-s-nim-rabotat.html
 30) features ES7/ES8
 https://tproger.ru/translations/wtf-is-ecmascript/
 https://habrahabr.ru/post/332900/
- 
 
+
+31) Адаптивная верстка
+https://metanit.com/web/html5/11.2.php
+
+32) CSS
+https://frontender.info/writing-efficient-css-selectors/
+https://habrahabr.ru/post/308680/
+//анимации
+https://metanit.com/web/html5/9.1.php
+// фреймворки
+https://ru.wikipedia.org/wiki/Bootstrap_(фреймворк)
+https://habrahabr.ru/post/177315/
+
+33) Оптимизация
+https://habrahabr.ru/company/badoo/blog/320558/
+https://habrahabr.ru/post/137239/ 
+
+34) HTML Microdata
+https://habrahabr.ru/post/141216/
+https://habrahabr.ru/post/66043/
+https://habrahabr.ru/post/133961/
+https://ru.wikipedia.org/wiki/Микроданные
+
+35) <!DOCTYPE>
+http://htmlbook.ru/html/%21doctype
+https://habrahabr.ru/post/71364/
+https://ruseller.com/htmlshpora.php?id=21
+
+36) html5
+https://habrahabr.ru/post/67049/
+http://htmlbook.ru/samouchitel-html5/atributy-data
+
+37) image optimization
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru
+
+38) git
+https://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/
+https://habrahabr.ru/post/337196/
 

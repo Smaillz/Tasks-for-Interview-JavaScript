@@ -1,6 +1,7 @@
 Статьи про javascript, css и др...
 https://getinstance.info
 https://tuhub.ru/
+https://habrahabr.ru/post/275729/
 
 tasks
 http://perfectionkills.com/javascript-quiz/
@@ -9,4 +10,5 @@ optimization
 https://habrahabr.ru/post/137318/
 http://javascript.ru/optimize/javascript-performance
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript?hl=ru
+
 

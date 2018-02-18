@@ -9,23 +9,35 @@
 </head>
 
 <body>
-    <script>
-        var sBrowser, sUsrAg = navigator.userAgent;
-
-        if (sUsrAg.indexOf("Chrome") > -1) {
-            sBrowser = "Google Chrome";
-        } else if (sUsrAg.indexOf("Safari") > -1) {
-            sBrowser = "Apple Safari";
-        } else if (sUsrAg.indexOf("Opera") > -1) {
-            sBrowser = "Opera";
-        } else if (sUsrAg.indexOf("Firefox") > -1) {
-            sBrowser = "Mozilla Firefox";
-        } else if (sUsrAg.indexOf("MSIE") > -1) {
-            sBrowser = "Microsoft Internet Explorer";
+    <style>
+        #con {
+            display: block;
+            border: 1px solid black;
+            width: 800px;
+            height: 200px;
+            text-align: center;
         }
 
-        alert("You are using: " + sBrowser);
-    </script>
+        #bl {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+
+        #before {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+    </style>
+    <div id="con">
+        <span id="before"></span>
+        <div id="bl"></div>
+        <div id="bl"></div>
+        <div id="bl"></div>
+        <div id="bl"></div>
+    </div>
 </body>
 
 </html>
