@@ -20,7 +20,7 @@ fetch('https://www.youtube.com')
     .then(res => sum(res, 3))
     .finnaly(res => {
         console.log(res);
-        return res + 123
+        return res + 123;
     })
     .then(res => {
         console.log(res)
@@ -28,3 +28,4 @@ fetch('https://www.youtube.com')
     .catch(res => {
         console.log(res)
     });
+//TODO 

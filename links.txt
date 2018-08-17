@@ -80,6 +80,14 @@ https://www.youtube.com/watch?v=nWCu2o_mmyE
 https://www.youtube.com/watch?v=uNJI3iYO-mA
 
 16) Testing process
+https://habrahabr.ru/company/rambler-co/blog/278503/
+https://habrahabr.ru/post/167173/
+https://habrahabr.ru/post/340514/
+
+//TDD
+https://ru.wikipedia.org/wiki/Разработка_через_тестирование
+//BDD
+https://ru.stackoverflow.com/questions/655063/Что-такое-bdd-в-чём-его-отличия-от-tdd
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 17) Ajax
@@ -194,4 +202,5 @@ https://developers.google.com/web/fundamentals/performance/optimizing-content-ef
 38) git
 https://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/
 https://habrahabr.ru/post/337196/
+https://webdevkin.ru/posts/raznoe/izuchaem-git-merge-vs-rebase-dlya-nachinayushhix
 

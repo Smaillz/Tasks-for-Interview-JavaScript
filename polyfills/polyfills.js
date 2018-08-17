@@ -8,7 +8,7 @@ function create(proto) {
     F.prototype = proto;
 
     var o = new F()
-    F.prototype = null; // Можно не писать, данная строка устраняет утечки памяти.
+    F.prototype = null; // Можно не писать, данная строка устраняет утечки памяти ????.
 
     return o;
 }

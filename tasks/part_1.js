@@ -50,28 +50,35 @@ var nextListItem = function() {
 for (var i = 0; i < 5; i++) {
     setTimeout(function () {
         console.log(i);
-    }, i * 1000);
+    }, 0);
 }
-//решение 3-мя способами
+//решение 4-мя способами
 //1 через фун bind()
 for (var i = 0; i < 5; i++) {
     setTimeout(function (i) {
         console.log(i);
-    }.bind(null,i), i * 1000);
+    }.bind(null,i), 0);
 }
 // 2 ES6 let переменная
 for (let i = 0; i < 5; i++) {
     setTimeout(function () {
         console.log(i);
-    }, i * 1000);
+    }, 0);
 }
 // 3 через замыкания
 for (var i = 0; i < 5; i++) {
     (function foo(i) {
         setTimeout(function () {
             console.log(i);
-        }, i * 1000);
+        }, 0);
     })(i);
+}
+
+// 4 через 3-й параметр который перездается в функцию калбэк
+for (var i = 0; i < 5; i++) {
+     setTimeout(function (i) {
+        console.log(i);
+    }, 0, i);
 }
 
 /**
