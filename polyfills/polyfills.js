@@ -28,10 +28,10 @@ function reduce(arr, callback, initialState) {
 }
 
 /**
- * polyfill Function.bind()
+ * Полифил Function.bind()
  */
 // in ES5 style
-Function.prototype.myBind = function(context) {
+Function.prototype.myBind = function (context) {
     var buff = this;
     var arg1 = [].slice.call(arguments, 1);
 
@@ -43,7 +43,7 @@ Function.prototype.myBind = function(context) {
 }
 
 // in ES6 style
-Function.prototype.myBind = function(context, ...arg1) {
+Function.prototype.myBind = function (context, ...arg1) {
     var buff = this;
 
     return function (...arg2) {
@@ -51,23 +51,37 @@ Function.prototype.myBind = function(context, ...arg1) {
     }
 }
 
-function foo (a, b){
+function foo(a, b) {
     console.log('Sum =', this + a + b);
 }
 
-var f = foo.myBind(10,20);
+var f = foo.myBind(10, 20);
 
 f(30);
 
 /**
- * Array dublicate
+ * Array duplicate
  */
-Array.prototype.dublicat = function (arr) {
+Array.prototype.duplicate = function (arr) {
     return this.concat(arr);
 }
 
-Array.prototype.dublicat = function (arr) {
+Array.prototype.duplicate = function (arr) {
     return [...this, ...arr];
 }
 
-console.log([1,2,3].dublicat([4,5,6]));
+console.log([1, 2, 3].duplicate([4, 5, 6]));
+
+/**
+    Полифил на new
+ */
+function MyNew(c, params) {
+    const obj = Object.create(c.prototype);
+    const res = c.call(obj, params);
+
+    if (typeof res === 'object' && res !== null) {
+        return res;
+    }
+
+    return obj;
+}

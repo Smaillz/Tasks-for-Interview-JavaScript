@@ -1,7 +1,0 @@
-GET https://www.onliner.by HTTP/1.1
-
-###
-
-GET https://api.nestoria.co.uk/api?action=echo&encoding=json&foo=bar
-
-###

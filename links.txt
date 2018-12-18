@@ -204,3 +204,6 @@ https://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/
 https://habrahabr.ru/post/337196/
 https://webdevkin.ru/posts/raznoe/izuchaem-git-merge-vs-rebase-dlya-nachinayushhix
 
+38) HTMLCollection vs NodeList и массив объектов
+https://medium.com/@kanby/htmlcollection-nodelist-и-массив-объектов-582cbd9ae1fc
+
